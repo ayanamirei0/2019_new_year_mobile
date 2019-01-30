@@ -1,0 +1,240 @@
+.top_mobile{
+    background-image: url("../img/bg_mobile_top.jpg");
+    background-size: 100% auto;
+    width: 18.75rem;
+    height: 11.25rem;
+}
+.main_content{
+    background-image: url("../img/bg_mobile.jpg");
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 6rem;
+}
+/* 导航 */
+.banner .banner_list{
+    background-image: url("../img/banner_mobile.jpg");
+    background-size: 100% 100%;
+    width: 18.75rem;
+    height: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.banner_list li{
+    padding-left: 1.4rem;
+    font-size: 0.7rem;
+    position: relative;
+}
+.banner_list li a{
+    color: #ffffff;
+    font-family: 'fz'
+}
+.banner_list li:first-child a{
+    color: #FFFFCF;
+}
+.banner_list li:before{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 0.5rem;
+    background-color: #fce2b5;
+    position: absolute;
+    top: 24%;
+    left: 20%;
+}
+.banner_list li:first-child:before{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 0.5rem;
+    background-color: #fce2b5;
+    position: absolute;
+    top: 24%;
+    left: 24%;
+}
+.banner_list li:last-child:after{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 0.5rem;
+    background-color: #fce2b5;
+    position: absolute;
+    top: 24%;
+    left: 113%;
+}
+
+.main_content .common_link{
+    width: 100%;
+    height: 1rem;
+}
+.main_content .img_title{
+    padding: 1rem 0 .7rem 26%;
+}
+.main_content .img_title img{
+    width: 8.75rem;
+}
+/* 寻春节 */
+.main_content .xunchun .story p{
+    font-size: .6rem;
+    color: #E2160B;
+    line-height: .65rem;
+    text-indent: 2rem;
+    padding: 0 2rem;
+    font-family: 'fz';
+}
+/* 闹春 */
+.naochun{
+    position: relative;
+}
+.naochun .img_title{
+    padding: .3rem 0 .7rem 26%;
+}
+.naochun .frame{
+    width: 18.75rem;
+    height: 11rem;
+    background-image: url("../img/naochun_border_mobile.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: .9rem 1rem .55rem 1rem;
+}
+.naochun .frame img{
+    width: 3.15rem;
+    height: 8rem;
+    margin-top: .5rem;
+}
+.naochun .frame p{
+    color: #E6100D;
+    text-indent: 1.05rem;
+    font-size: .6rem;
+    margin-left: .5rem;
+    line-height: .8rem;
+    font-family: 'fz';
+}
+.naochun .brand_list{
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    bottom: 2%;
+    right: 5%;
+}
+.naochun .brand_list img{
+    width: 1rem;
+}
+.naochun .brand_list li{
+    margin-right: 1rem;
+}
+
+/* 画春节 */
+.huachun .img_title{
+    padding: 1rem 0 .7rem 26%;
+}
+.huachun .paint{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 1.9rem;
+}
+.huachun .paint img{
+    height: 3rem;
+    margin: 0 0 .4rem .6rem;
+}
+
+/* 记春节 */
+.jichun .img_title{
+    padding: .6rem 0 .4rem 26%;
+}
+.jichun .swiper-container .swiper-wrapper .swiper-slide{
+    padding: 0 .9rem;
+}
+.jichun .swiper-container .swiper-wrapper .swiper-slide li{
+    color: #DD1218;
+    font-size: .6rem;
+    padding-left: .3rem;
+    position: relative;
+    width: 100%;
+    height: 1.3rem;
+    line-height: 1.3rem;
+    border-bottom: .05rem dashed #DD1218;
+    font-family: 'fz';
+}
+.jichun .swiper-container .swiper-wrapper .swiper-slide li:before{
+    content: '';
+    width: .2rem;
+    height: .2rem;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #E6100D;
+    position: absolute;
+    top: 44%;
+    left: -1%;
+}
+.jichun .swiper-container .swiper-wrapper .swiper-slide li .outside_link{
+    position: absolute;
+    top: 1%;
+    right: 0;
+}
+.jichun .swiper-container .swiper-wrapper .swiper-slide li .outside_link a{
+    color: #E6100D;
+}
+
+/* 贺春节 */
+.hechun{
+    padding: 0 3%;
+}
+.hechun .img_title{
+    width: 7rem;
+    padding: .2rem 0 .7rem 26%;
+}
+.hechun .text{
+    display: flex;
+    flex-wrap: wrap;
+}
+.hechun .essay{
+    position: relative;
+    width: 50%;
+}
+.hechun .essay img{
+    width: 98%;
+    height: 5.4rem;
+}
+.hechun .essay p{
+    font-size: .6rem;
+    color: #E6100D;
+    width: 7.2rem;
+    line-height: .63rem;
+    position: absolute;
+    top: 12%;
+    left: 9%;
+    font-family: 'fz';
+}
+
+
+/* 遮罩层 */
+.popup{
+    width: 18.75rem;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 998;
+}
+.popup img{
+    width: 18rem;
+    position: absolute;
+    top: 27%;
+    left: 2%;
+}
+
+/* swiper轮播分页器样式自定义 */ 
+.swiper-pagination-bullet-active{
+    width: .35rem;
+    height: .35rem;
+    border-radius: 50%;
+    background-color: #DE171C;
+}
+.swiper-pagination-bullet{
+    width: .35rem;
+    height: .35rem;
+}
