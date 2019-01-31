@@ -60,7 +60,12 @@
                     <img src="./img/naochun_mobile.png" alt="">
                 </div>
                 <div class="frame">
-                    <img src="./img/clear_mobile.png" alt="">
+                    <img src="./img/clear.png" class="clear" alt="">
+                    <img src="./img/door.png" class="door com_img" style="display:none" alt="">
+                    <img src="./img/eat.png" class="eat com_img" style="display:none" alt="">
+                    <img src="./img/snowman.png" class="snowman com_img" style="display:none" alt="">
+                    <img src="./img/play.png" class="play com_img" style="display:none" alt="">
+                    <img src="./img/money.png" class="money com_img" style="display:none" alt="">
                     <div class="text_dust _text">
                         <p>腊月二十四，掸尘扫房子，北方叫扫房，南方叫掸尘。这一天，房前屋后彻底进行打扫，衣被用具洗刷一新，干干净净地迎新春。</p>
                         <p>扫尘又称除尘、除残、掸尘、打埃尘等，是中国传统年俗之一。一般在祭灶之后进行。</p>
@@ -333,6 +338,8 @@
         $(".text_dust").show();
         $(".dust_active").show();
         $(".dust_normal").hide();
+        $(".frame img").hide();
+        $(".clear").show();
     });
     $(".couplet").click(function () {
         $("._text").hide();
@@ -341,6 +348,8 @@
         $(".text_couplet").show();
         $(".couplet_active").show();
         $(".couplet_normal").hide();
+        $(".frame img").hide();
+        $(".door").show();
     });
     $(".year_money").click(function () {
         $("._text").hide();
@@ -349,6 +358,8 @@
         $(".text_year_money").show();
         $(".year_money_active").show();
         $(".year_money_normal").hide();
+        $(".frame img").hide();
+        $(".money").show();
     });
     $(".shousui").click(function () {
         $("._text").hide();
@@ -357,6 +368,8 @@
         $(".text_shou_sui").show();
         $(".shou_sui_active").show();
         $(".shou_sui_normal").hide();
+        $(".frame img").hide();
+        $(".snowman").show();
     });
     $(".dumpling").click(function () {
         $("._text").hide();
@@ -365,6 +378,8 @@
         $(".text_dumpling").show();
         $(".dumpling_active").show();
         $(".dumpling_normal").hide();
+        $(".frame img").hide();
+        $(".eat").show();
     });
     $(".banger").click(function () {
         $("._text").hide();
@@ -373,6 +388,8 @@
         $(".text_banger").show();
         $(".banger_active").show();
         $(".banger_normal").hide();
+        $(".frame img").hide();
+        $(".play").show();
     });
     $(".link_xunchun").click(function () {
         $(".banner_list a").css("color", "#ffffff");
