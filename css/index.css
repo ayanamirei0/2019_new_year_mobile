@@ -28,9 +28,7 @@
 .banner_list li a{
     color: #ffffff;
     font-family: 'fz';
-    position: relative;
-    bottom: 1%;
-    left: 0;
+    display: inline-block;
 }
 .banner_list li:first-child a{
     color: #FFFFCF;
@@ -241,6 +239,15 @@
     left: 2%;
 }
 
+/* 闹新春多行文本居中 */
+.frame ._text{
+    display: table;
+    height: 7rem;
+}
+.frame ._text .middle_line{
+    display: table-cell;
+    vertical-align:middle;
+}
 /* swiper轮播分页器样式自定义 */ 
 .swiper-pagination-bullet-active{
     width: .35rem;
