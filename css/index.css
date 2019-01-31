@@ -212,13 +212,13 @@
     height: 5.4rem;
 }
 .hechun .essay p{
-    font-size: .6rem;
+    font-size: .5rem;
     color: #E6100D;
     width: 7rem;
     line-height: .63rem;
     position: absolute;
     top: 13%;
-    left: 9%;
+    left: 10%;
     font-family: 'fz';
 }
 
