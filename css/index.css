@@ -192,7 +192,7 @@
 
 /* 贺春节 */
 .hechun{
-    padding: 0 3%;
+    padding: 0 5%;
 }
 .hechun .img_title{
     width: 7rem;
@@ -204,7 +204,7 @@
 }
 .hechun .essay{
     position: relative;
-    width: 50%;
+    width: 48%;
 }
 .hechun .essay img{
     width: 98%;
