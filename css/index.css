@@ -130,7 +130,7 @@
     display: flex;
     flex-wrap: nowrap;
     position: absolute;
-    bottom: 2%;
+    bottom: 1%;
     right: 5%;
 }
 .naochun .brand_list img{
@@ -194,7 +194,7 @@
 
 /* 贺春节 */
 .hechun{
-    padding: 0 5% 0 8%;
+    padding: 0 6% 0 7%;
 }
 .hechun .img_title{
     padding: .2rem 0 .7rem 24%;
@@ -205,7 +205,7 @@
 }
 .hechun .essay{
     position: relative;
-    width: 49%;
+    width: 50%;
 }
 .hechun .essay img{
     width: 98%;
@@ -214,11 +214,11 @@
 .hechun .essay p{
     font-size: .6rem;
     color: #E6100D;
-    width: 7.2rem;
+    width: 7rem;
     line-height: .63rem;
     position: absolute;
     top: 13%;
-    left: 5.5%;
+    left: 9%;
     font-family: 'fz';
 }
 
