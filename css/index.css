@@ -194,11 +194,10 @@
 
 /* 贺春节 */
 .hechun{
-    padding: 0 5%;
+    padding: 0 5% 0 8%;
 }
 .hechun .img_title{
-    width: 7rem;
-    padding: .2rem 0 .7rem 26%;
+    padding: .2rem 0 .7rem 24%;
 }
 .hechun .text{
     display: flex;
@@ -206,7 +205,7 @@
 }
 .hechun .essay{
     position: relative;
-    width: 48%;
+    width: 49%;
 }
 .hechun .essay img{
     width: 98%;
@@ -218,8 +217,8 @@
     width: 7.2rem;
     line-height: .63rem;
     position: absolute;
-    top: 12%;
-    left: 9%;
+    top: 13%;
+    left: 5.5%;
     font-family: 'fz';
 }
 
@@ -241,7 +240,7 @@
     left: 2%;
 }
 
-/* 闹新春多行文本居中 */
+/* 多行文本居中 */
 .frame ._text{
     display: table;
     height: 7rem;
@@ -250,6 +249,9 @@
     display: table-cell;
     vertical-align:middle;
 }
+
+
+
 /* swiper轮播分页器样式自定义 */ 
 .swiper-pagination-bullet-active{
     width: .35rem;
@@ -260,4 +262,7 @@
 .swiper-pagination-bullet{
     width: .35rem;
     height: .35rem;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets{
+    left: -.15rem;
 }
